@@ -14,6 +14,20 @@ France's *diagonale du vide*, is the primary case study, given its OECD designat
 
 ---
 
+## Repository Structure
+
+Code and data are organised across **branches**; all figures and visualisations are available within code in the 🔗 **[index page](https://lewishall05-pixel.github.io/deprived_regions_and_authoritarian_personalities/)**.
+
+
+| Branch | Contents |
+|--------|----------|
+| `main` | README |
+| `code` | Google Colab (Python) notebooks |
+| `data` | ESS datasets in ZIP files |
+| `docs` | HTML webpage of code |
+
+---
+
 ## Research Question
 
 Do left-behind regions cause higher authoritarian personality scores, therefore increasing right-authoritarian vote share?
@@ -38,20 +52,21 @@ Do left-behind regions cause higher authoritarian personality scores, therefore 
 - In the *diagonale du vide* case study, both authoritarian attitude scores and *Rassemblement National* vote share track closely along the left-behind line, evidencing the deprivation → attitude → vote path.
 
 ---
+## Replicating the Results
 
-## Repository Structure
+All materials needed to replicate analysis are available in the repository on branches:
+- **`data`** 
+- **`code`**
 
-Code and data are organised across **branches**; all figures and visualisations are available within code in the 🔗 **[index page](https://lewishall05-pixel.github.io/deprived_regions_and_authoritarian_personalities/)**.
+### Steps
 
+1. Clone the repository with the branches.
 
-| Branch | Contents |
-|--------|----------|
-| `main` | README |
-| `code` | Google Colab (Python) notebooks |
-| `data` | ESS datasets in ZIP files |
-| `docs` | HTML webpage of code |
+2. Get the data - no external downloads required, all processed ESS11-ESS8 data is included.
 
+3. Install required Python packages.
 
+4. Run code notebook cells in order.
 
 ---
 
